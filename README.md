@@ -15,7 +15,14 @@ The only software that I used to create this dashboard is [VS Code](https://code
 
 ## Project Completion
 
-To view the completed dashboard, please [click here](https://mishkanian.github.io/plotly_deploy.io/)
+To view the completed dashboard, please [click here](https://mishkanian.github.io/plotly_deploy.io/).
+
+### GitHub Pages Deployment Issue  
+After successfully testing the dashboard locally, the header image was not displaying correctly after deployment to GitHub Pages. The issue is caused by [style.css](https://github.com/Mishkanian/plotly_deploy.io/blob/master/static/css/style.css) on line 2. The file path "../images/lab.jpg" was not recognized by GitHub Pages.
+```css
+/* This is a workaround to have the image display on GitHub Pages.
+background-image: url("https://raw.githubusercontent.com/Mishkanian/plotly_deploy.io/master/static/images/lab.jpg");
+```
 
 
 **Author: Michael Mishkanian**  
