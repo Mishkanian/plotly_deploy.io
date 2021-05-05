@@ -1,7 +1,7 @@
-# Interactive Biodiversity Dashboard
+# [Interactive Biodiversity Dashboard](https://mishkanian.github.io/plotly_deploy.io/)
 
 ## Project Overview
-The purpose of this project is to build an interactive dashboard using event handlers in JavaScript and Plotly.js to create graphs, such as bubble graphs and bar graphs. The finished product is deployed to GitHub Pages.
+The purpose of this project is to build an [interactive dashboard](https://mishkanian.github.io/plotly_deploy.io/) using event handlers in JavaScript and Plotly.js to create graphs, such as bubble graphs and bar graphs. The finished product is deployed to GitHub Pages.
 
 ## Software
 
